@@ -1,0 +1,32 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+td.progess span {
+    border-radius: 50vw;
+    padding: 4px 12px;
+    color: #fff;
+}
+
+td.progess span.low {
+    background-color: #f0ad4e;
+}
+
+td.progess span.medium,
+td.progess span.Medium {
+    background-color:#337ab7;
+}
+
+td.progess span.high {
+    background-color: #d9534f;
+}
+
+td.status span.completed {
+    color: green;
+}
+
+td.status span.inprocess {
+    color: #f0ad4e;
+}
